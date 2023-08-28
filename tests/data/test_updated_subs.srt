@@ -1,0 +1,14 @@
+1
+00:00:00,698 --> 00:00:03,027
+<i><b>- Here's what I love most</b></i>
+<i><b>about food and diet.</b></i>
+
+2
+00:00:03,027 --> 00:00:06,583
+<i><b>We all eat several times a day,</b></i>
+<i><b>and we're totally in charge</b></i>
+
+3
+00:00:06,583 --> 00:00:09,627
+<i><b>of what goes on our plate</b></i>
+<i><b>and what stays off.</b></i>

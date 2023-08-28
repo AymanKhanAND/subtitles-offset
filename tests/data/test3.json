@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Opening Hours",
+  "description": "Validates object containing the opening and closing times of a location for each day of the week.",
+  "type": "object",
+  "properties": {
+    "monday": {
+      "type": "object",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "opens": {
+              "type": "string"
+            },
+            "closes": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "opens",
+            "closes"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "closed": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "closed"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "monday"
+  ]
+}
